@@ -1,0 +1,61 @@
+header{
+  background-color: pink;
+  color: red;
+  font-size: 33px;
+  text-align: center;
+}
+img{
+  width: 40%
+}
+.card{
+  background:cyan;
+  width: 45%;
+  border-radius:2px 2px 2px;
+  box-shadow:2px 2px 2px;
+  text-align: center;
+padding: 1%;
+margin: 1%;
+
+}
+.mainDiv{
+  display: flex;
+justify-content: space-between;
+}
+.main{
+  display: flex;
+}
+.leftdiv{
+  width: 40%;
+  background-color: #ddd;
+  border:3px solid#fff000;
+text-align: center;
+
+}
+.rightdiv{
+  margin: 1%;
+  padding: 2%;
+  background-color:pink;
+  border: 3px solid#fff000;
+}
+/*mobile view */
+@media screen and (min-width:480px)and (max-width:720px) {
+  .mainDiv,.main{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .card,.leftdiv,.rightdiv
+  {
+    width:45%;
+  }
+}
+@media screen and (min-width:480px)and (max-width:720px) {
+  .mainDiv{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .card{
+    width:45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
