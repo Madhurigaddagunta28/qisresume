@@ -1,0 +1,44 @@
+{
+  "profile":{
+    "name":"madhuri",
+"image":"images/download.png",
+    "collagename":"QIS",
+    "number":"9182790237",
+    "mail":"yashvarsha@gmail.com",
+    "careeer":"Keep it short. The space on a resume is precious, and as such every section should pack a punch, telling employers something new and important about you. ...Be honest. ... Make your career objective specific to each role."
+
+},
+"EDUCATION":[
+  {
+    "degree":"btech",
+    "college":"QIS",
+    "branch":"cse",
+    "marks":"80%",
+    "enddate":"06/06/2020"
+
+  },
+  {
+    "degree":"intermediate",
+    "college":"NARAYANA",
+    "group":"MPC",
+    "marks":"85%",
+    "enddate":"06/06/2016"
+
+},
+{
+  "degree":"ssc",
+  "college":"BPR",
+  "medium":"TELUGU",
+  "marks":"90%",
+  "enddate":"06/06/2014"
+
+}
+
+
+],
+"SKILLS":{
+  "os":"windows 7,windows 8.1,windows 8.1,xp",
+  "ps":"c,java,html"
+}
+
+}
